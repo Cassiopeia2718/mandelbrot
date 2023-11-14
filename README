@@ -1,0 +1,9 @@
+Mandelbrot Set generator making function mandelbrot
+
+requires numpy and matplot
+
+mandelbrot() takes 7 arguments (MinX, MaxX, MinY, MaxY, PixelWidth, Itterations, File path and name in "")
+
+will make a png in the specified file path and name
+
+mandelbrot(-1.5, 0.75, -1.2, 1.2, 6000, 100, "Mandelbrot")
