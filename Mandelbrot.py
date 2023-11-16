@@ -20,7 +20,7 @@ def mandelbrot(minX, maxX, minY, maxY, widthPixels, iterations, fileName):
     mandelbrot = np.sqrt(isStable(plane, iterations))
 
     plt.imshow(mandelbrot)
-    plt.imsave("/Users/nicholas/Desktop/Fractels/" + file_name + ".png", mandelbrot)
+    plt.imsave(file_name + ".png", mandelbrot)
     plt.show()
      
 def isStable(z, iterations):
