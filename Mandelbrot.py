@@ -12,7 +12,7 @@ def mandelbrot(minX, maxX, minY, maxY, widthPixels, iterations, fileName):
     A = np.tile(a, (len(b), 1))
     B = np.ndarray.transpose(np.tile(b, (len(a), 1)))
 
-    plane = np.empty(np.shape(A), dtype=np.complex128)
+    Plane = np.empty(np.shape(A), dtype=np.complex128)
 
     Plane.real = A
     Plane.imag = B
